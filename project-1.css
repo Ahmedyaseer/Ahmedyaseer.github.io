@@ -766,3 +766,7 @@ strong {
   left: 120px;
   top: 120px;
 }
+.div-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
