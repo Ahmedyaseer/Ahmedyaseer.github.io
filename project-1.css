@@ -25,9 +25,11 @@
 }
 .feedBack30k {
   display: flex;
+  margin-top: 30px;
 }
 .p-feedback30k {
   margin-top: 10px;
+  margin-left: 15px;
 }
 .ver-flex {
   display: flex;
@@ -649,6 +651,7 @@ strong {
   background-color: #eef1f6;
   margin-top: 150px;
   position: relative;
+  height: auto;
 }
 .knowes-appie {
   display: inline-block;
@@ -656,6 +659,7 @@ strong {
 }
 .knowes-logo {
   margin-bottom: 30px;
+  margin-top: 80px;
 }
 .p-knowes-logo {
   margin-bottom: 30px;
@@ -680,7 +684,8 @@ strong {
   gap: 10px;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 80px;
+  /* margin-left: 80px; */
+  margin-top: 50px;
 }
 .about-us {
   display: flex;
@@ -744,13 +749,15 @@ strong {
 .copyright {
   color: rgba(0, 0, 0, 0.39);
   font-size: 21px;
-  margin-left: 380px;
+  /* margin-right: 400px; */
+  margin-left: 315px;
 }
 .footer-flex {
-  margin-top: 200px;
   display: flex;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 30px;
+  margin-top: 100px;
+  padding-bottom: 60px;
 }
 .last-up-arrow {
   background-color: rgba(243, 184, 200, 255);
@@ -759,14 +766,24 @@ strong {
   border-radius: 15px;
 }
 .icon-arrow-up {
-  color: rgba(255, 255, 255, 0.863);
-  width: 20px;
-  height: 20px;
+  background-color: #f3b8c8;
+  color: #fff;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  left: 120px;
-  top: 120px;
+  right: 35px;
+  bottom: 60px;
 }
 .div-flex {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.background-button {
+  background-color: #ff3e66;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.192);
 }
